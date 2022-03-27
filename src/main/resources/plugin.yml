@@ -1,0 +1,17 @@
+name: MCModels2
+version: '${project.version}'
+main: me.noname.mcmodels2.MCModels2
+api-version: 1.18
+authors: [ NoName ]
+description: Add models system
+commands:
+  givemodel:
+    description: Give custom models
+    permission: MCModels2.Give
+    permission-message: §cNie masz odpowiedniej permisji!
+    usage: §c/givemodel <model>
+  getModel:
+    description: Give player custom model
+    permission: MCModels2.Give
+    permission-message: §cNie masz odpowiedniej permisji!2
+    usage: §c/givemodel <model> <player>
